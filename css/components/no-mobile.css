@@ -1,0 +1,23 @@
+#no-mobile {
+  position: fixed;
+  z-index: 99;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+}
+
+#no-mobile span {
+  font-size: 32px;
+  font-weight: 600;
+  color: #c53460;
+}
+
+@media screen and (max-width: 500px) {
+  #no-mobile {
+    display: none;
+  }
+}

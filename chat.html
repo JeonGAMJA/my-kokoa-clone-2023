@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GlowTalk - Chat Gamja</title>
+  </head>
+  <body id="chat-screen">
+    <div class="bg-container_chat">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span>No sevice</span>
+          <i class="fa-sharp fa-solid fa-wifi"></i>
+          <!--i는 icon의 줄임말-->
+        </div>
+        <div class="status-bar__column">
+          <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+          <span>110%</span>
+          <i class="fa-solid fa-battery-full fa-lg"></i>
+          <i class="fa-solid fa-bolt-lightning"></i>
+        </div>
+      </div>
+      <header class="alt-header">
+        <div class="alt-header__column">
+          <a href="chats.html">
+            <i class="fa-solid fa-angle-left fa-2x"></i>
+          </a>
+        </div>
+        <div class="alt-header__column">
+          <h1 class="alt-header__title">전감자</h1>
+        </div>
+        <div class="alt-header__column">
+          <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+          <span><i class="fa-solid fa-bars fa-lg"></i></span>
+        </div>
+      </header>
+
+      <main class="main-screen main-chat">
+        <div class="chat__timestamp">Sunday, Febrary 26, 2023</div>
+
+        <div class="message-row">
+          <img src="https://avatars.githubusercontent.com/u/125572102?v=4" />
+          <div class="message-row__content">
+            <span class="message__author">전감자</span>
+            <div class="message__letter">
+              <span class="message__bubble">Hi!</span>
+              <span class="message__time">21:27</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="message-row message-row--own">
+          <div class="message-row__content">
+            <div class="message__letter">
+              <span class="message__bubble">Hi! nice to meet you!</span>
+              <span class="message__time">21:27</span>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <form class="reply">
+        <div class="reply__column">
+          <i class="fa-regular fa-square-plus fa-xl"></i>
+        </div>
+        <div class="reply__column">
+          <input type="text" placeholder="write a message..." />
+          <i class="fa-regular fa-face-smile fa-lg"></i>
+          <button>
+            <i class="fa-solid fa-arrow-up"></i>
+          </button>
+        </div>
+      </form>
+
+      <div id="no-mobile">
+        <span>Your screen is too big!</span>
+      </div>
+
+      <script
+        src="https://kit.fontawesome.com/918a7c0be2.js"
+        crossorigin="anonymous"
+      ></script>
+      <!--아이콘 불러오는 src 스크립트 -->
+    </div>
+  </body>
+</html>

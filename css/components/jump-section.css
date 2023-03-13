@@ -1,0 +1,49 @@
+#welcome-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#welcome-box {
+  text-align: center;
+}
+
+#ready {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  cursor: pointer;
+}
+
+#ready i {
+  color: white;
+  animation: upAndDown 2s ease-in-out infinite;
+}
+
+#welcome {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+#welcome-ex {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+@keyframes upAndDown {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: none;
+  }
+}

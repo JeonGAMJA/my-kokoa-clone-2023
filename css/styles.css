@@ -1,0 +1,29 @@
+@import "reset.css";
+@import "variables.css";
+
+/*components*/
+@import "components/no-mobile.css";
+@import "components/status-bar.css";
+@import "components/user-component.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+@import "components/background.css";
+@import "components/jump-section.css";
+/*screens*/
+@import "screens/chat.css";
+@import "screens/find.css";
+@import "screens/friends.css";
+@import "screens/login.css";
+@import "screens/more.css";
+@import "screens/setting.css";
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+html {
+  scroll-behavior: smooth;
+}

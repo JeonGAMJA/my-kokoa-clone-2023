@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GlowTalk - Login page</title>
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="bg-container_chat">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span>No sevice</span>
+          <i class="fa-sharp fa-solid fa-wifi"></i>
+          <!--i는 icon의 줄임말-->
+        </div>
+        <div class="status-bar__column">
+          <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+          <span>110%</span>
+          <i class="fa-solid fa-battery-full fa-lg"></i>
+          <i class="fa-solid fa-bolt-lightning"></i>
+        </div>
+      </div>
+      <section id="welcome-section">
+        <div id="welcome-box">
+          <h1 id="welcome">Welcome to GlowTalk</h1>
+        </div>
+        <div id="ready">
+          <h4 id="welcome-ex">Are you ready?</h4>
+          <a href="#login-section">
+            <i class="fa-solid fa-angles-down"></i>
+          </a>
+        </div>
+      </section>
+      <section id="login-section">
+        <div class="login-page__column">
+          <div class="login-box">
+            <div class="login-value" class="email-box">
+              <form class="login-form" action="friends.html" method="get">
+                <h1>Login</h1>
+                <div class="input-box email-box">
+                  <input type="text" required />
+                  <label for="">ID</label>
+                  <i class="fa-regular fa-envelope"></i>
+                </div>
+                <div class="input-box password-box">
+                  <input type="password" required />
+                  <label for="">Passworld</label>
+                  <i class="fa-solid fa-lock"></i>
+                </div>
+                <div class="save">
+                  <label for="">
+                    <input type="checkbox" />Remember login information?
+                  </label>
+                </div>
+                <button class="login-btn">Log in</button>
+                <a class="find-account" href="#"
+                  >Find Glow Account or password</a
+                >
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="no-mobile">
+      <span>Your screen is too big!</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/918a7c0be2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
